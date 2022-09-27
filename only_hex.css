@@ -1,0 +1,111 @@
+html{
+    background-image: url("4353210.png");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    text-align: center;
+    }
+
+body{
+    margin: 0;
+}
+
+.projectName{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.color_box{
+    text-align: center;
+    height: 100px;
+    width: 160px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+
+#color_showcase ul{
+    font-family: "adelle", "Times New Roman";
+    color: #2e2e2e;
+    padding-left: 0;
+    padding-bottom: 40px;
+    margin-left: 0;
+    text-align: left;
+}
+
+
+.color_box:hover{
+    margin: 15px;
+    padding: 15px;
+    transition: margin 0.2s, padding 0.2s;
+}
+
+.color_box:active{
+    margin: 5px;
+    padding: 25px;
+    transition: margin 0.2s, padding 0.2s;
+}
+
+.color_lib{
+    background-color: rgba(255, 255, 255, 0.56);
+    margin-top: 0;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.colors_159{
+    margin-top: 0;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.page_link{
+    padding: 10px 0 10px 0;
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 100%;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+/*    right: 40%;*/
+}
+
+.prj_btn{
+    font-family: "helvetica","consolas";
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+/*    background-color: rgba(0, 0, 0, 0.49);*/
+    padding: 10px 14px;
+}
+
+.prj_btn:hover, .prj_btn:active{
+    font-family: "helvetica","consolas";
+    color: #2f2f2f;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: rgb(255, 147, 0);
+    padding: 10px 14px;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+
+#color_showcase li span{
+    color: #2e2e2e;
+    background: rgba(255, 255, 255, 0.72);
+/*    margin-left: 2%;*/
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
